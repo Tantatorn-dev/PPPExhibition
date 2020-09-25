@@ -130,7 +130,7 @@ module.exports = env => {
 
     plugins: plugins.concat(
       new HtmlWebpackPlugin({
-        title: 'Three.js Webpack ES6 Boilerplate',
+        title: 'People Party Pin Exhibition',
         template: path.join(__dirname, 'src/html/index.html'),
         filename: '../index.html',
         env: env.NODE_ENV,
